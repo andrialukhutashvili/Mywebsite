@@ -1,3 +1,32 @@
+
+a[href$=".jpg"][download] {
+    display: inline-block;
+    
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #07dd05;
+    text-decoration: none;
+    border-radius: 5px;
+    
+    
+}
+
+/* Hover effect */
+a[href$=".jpg"][download]:hover {
+    background-color: #eb0c0c
+}
+
+a[href$=".jpg"][download]:active {
+    background-color: #2709e6
+}
+
 a {
-    text-allign: center;
+    margin: 132px;
+}
+
+img {
+    padding: 10px;
+    margin: 40px;
 }
